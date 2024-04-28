@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_marginStart="2dp"
+    android:gravity="center"
+    android:background="#E8E9ED"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:id="@+id/linearKategori"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgKategori"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:src="@drawable/kategori"
+        />
+    <TextView
+        android:maxWidth="100dp"
+        android:id="@+id/txKategoriAD"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_marginTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fast Food"
+        android:fontFamily="sans-serif-condensed-medium"
+        />
+
+</LinearLayout>

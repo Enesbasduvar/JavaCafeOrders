@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_margin="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="8dp"
+    >
+    <TextView
+        android:gravity="center"
+        android:fontFamily="@font/wendy_one"
+        android:textSize="24sp"
+        android:textColor="#fff"
+
+        android:text="NOT EKLEYİN"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        />
+
+    <EditText
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:gravity="start"
+        android:hint="Not..."
+        android:id="@+id/edtNot"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/background_text"
+        android:inputType="text" />
+    <Button
+        android:id="@+id/btnNotGuncelle"
+        android:textColor="#fff"
+        android:text="GÜNCELLE"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/background_button"
+        />
+    <Button
+        android:id="@+id/btnNotIptal"
+        android:textColor="#fff"
+        android:text="İPTAL"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/background_button"
+        />
+
+</LinearLayout>

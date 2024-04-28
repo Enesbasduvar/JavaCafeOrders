@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#252B8C</color>
+    <color name="colorAccent">#E91E63</color>
+
+    <color name="cBtnPassive">#aC555566</color>
+    <color name="cBtnActive">#3A3A40</color>
+    <color name="cTextPassive">#fff</color>
+    <color name="cTextActive">#3A3A40</color>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+    <TextView
+        android:gravity="center"
+        android:fontFamily="@font/wendy_one"
+        android:background="@color/colorPrimary"
+        android:text="Miktar Seçin"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:padding="10dp"
+
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+
+            android:background="@drawable/background_btn2"
+            android:id="@+id/btnAzalt"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/ic_baseline_remove" />
+        <EditText
+
+            android:inputType="number"
+            android:focusable="false"
+            android:gravity="center"
+            android:paddingEnd="5dp"
+            android:paddingStart="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/edMktarView"
+            android:layout_width="180dp"
+            android:background="@drawable/background_text"
+            android:layout_height="40dp"
+            android:text="1.00"
+
+            />
+
+        <ImageButton
+            android:backgroundTint="#4CAF50"
+            android:background="@drawable/background_btn2"
+            android:id="@+id/btnArttir"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/ic_baseline_add"
+            tools:layout_editor_absoluteX="310dp"
+            tools:layout_editor_absoluteY="42dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
